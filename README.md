@@ -5,5 +5,8 @@ YES please go away
 because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 
 ### Patches
-- `com.discord` (!!)
-  - Block bluetooth hands-free mode
+
+<!-- PATCHES_START -->
+
+
+<!-- PATCHES_END -->
