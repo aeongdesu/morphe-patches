@@ -13,6 +13,9 @@ object Constants {
         appIconColor = 0x5865F2,
         targets = listOf(
             AppTarget(
+                version = "346.0 - Alpha"
+            ),
+            AppTarget(
                 version = "344.5 - Alpha"
             )
         )
