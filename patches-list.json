@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0",
   "patches": [
     {
       "name": "Block bluetooth hands-free mode",
@@ -16,6 +16,13 @@
           "appIconColor": "#5865F2",
           "signatures": null,
           "targets": [
+            {
+              "version": "346.0 - Alpha",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
             {
               "version": "344.5 - Alpha",
               "versionCodes": null,
