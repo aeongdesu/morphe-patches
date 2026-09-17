@@ -27,7 +27,7 @@ val blockHFP = bytecodePatch(
         SetCommunicationModeOnFingerprint.method.addInstructions(
             0,
             """
-            const/4 p1, 0x0
+                const/4 p1, 0x0
             """
         )
 

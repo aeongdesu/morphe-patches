@@ -1,0 +1,74 @@
+/*
+ * source code from https://github.com/arandomhooman/hoomans-morphe-patches
+ * temp for testing, don't use this.
+ */
+
+package app.aeong.patches.twitch.ads
+
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
+import app.morphe.patcher.patch.AppTarget
+import app.morphe.patcher.patch.Compatibility
+import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patcher.patch.stringOption
+
+@Suppress("unused")
+val blockLiveAdsPatch = bytecodePatch(
+    name = "Block live ads",
+    description = "same as hoomans patch but added proxy url option",
+) {
+    compatibleWith(
+        Compatibility(
+            name = "Twitch",
+            packageName = "tv.twitch.android.app",
+            appIconColor = 0x9147FF,
+            targets = listOf(AppTarget("30.7.2")),
+        ),
+    )
+
+    val proxyUrl by stringOption(
+        key = "proxyUrl",
+        title = "Proxy URL",
+        description = "Luminous/TTV LOL PRO proxies are supported.",
+        default = "https://eu.luminous.dev",
+        values = mapOf(
+            "https://eu.luminous.dev" to "https://eu.luminous.dev",
+            "https://as.luminous.dev" to "https://as.luminous.dev",
+            "https://lb-eu.cdn-perfprod.com" to "https://lb-eu.cdn-perfprod.com",
+            "https://lb-na.cdn-perfprod.com" to "https://lb-na.cdn-perfprod.com",
+            "https://lb-as.cdn-perfprod.com" to "https://lb-as.cdn-perfprod.com",
+            "https://lb-sa.cdn-perfprod.com" to "https://lb-sa.cdn-perfprod.com"
+        ),
+        required = true,
+        validator = {
+            value -> value != null && value.startsWith("https://")
+        }
+    )
+
+    execute {
+        // The live HLS URL is built in one lambda; its second instance field (b) holds the stream name.
+        // Replace the whole body to return the equivalent Luminous/TTV LOL PRO proxy URL, so the player loads the
+        // ad-free manifest the proxy serves. The proxy ignores token/sig, so the two lambda args go
+        // unused. Read the field off the matched class, not a hardcoded name, to stay off the obfuscated name.
+        val method = LiveManifestUrlBuilderFingerprint.method
+        val streamNameField = "${method.definingClass}->b:Ljava/lang/String;"
+
+        method.addInstructions(
+            0,
+            """
+                new-instance v0, Ljava/lang/StringBuilder;
+                invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+                const-string v1, "$proxyUrl/playlist/"
+                invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+                iget-object v1, p0, $streamNameField
+                invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+                const-string v1, ".m3u8%3Fallow_source%3Dtrue%26allow_audio_only%3Dtrue%26fast_bread%3Dtrue"
+                invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+                invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+                move-result-object v0
+                invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+                move-result-object v0
+                return-object v0
+            """,
+        )
+    }
+}
