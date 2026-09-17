@@ -8,7 +8,7 @@ import app.morphe.patcher.patch.bytecodePatch
 @Suppress("unused")
 val showVideoStatsPatch = bytecodePatch(
     name = "Show video stats",
-    description = "Shows Twitch's built-in video debug statistics button in the player.",
+    description = "Shows video debug stats button in the player.",
     default = true
 ) {
     compatibleWith(
@@ -23,12 +23,9 @@ val showVideoStatsPatch = bytecodePatch(
     )
 
     execute {
-        VideoDebugConfigFingerprint.method.addInstructions(
+        BottomPlayerOverlayViewModelConstructorFingerprint.method.addInstruction(
             0,
-            """
-                const/4 v0, 0x1
-                return v0
-            """
+            "const/16 p5, 0x1",
         )
     }
 }
