@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-17T01:15:37",
-  "description": "## [1.1.0-dev.1](https://github.com/aeongdesu/morphe-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-09-17)\n\n### 🐛 Bug Fixes\n\n* json category in the generated patches list ([5295c9d](https://github.com/aeongdesu/morphe-patches/commit/5295c9dfced44ff47450fe9a4e42ad88df0fc08e))\n\n### ✨ New Features\n\n* add Twitch block live ads test ([97a5474](https://github.com/aeongdesu/morphe-patches/commit/97a54749878b31e1f478f6c1014b4aa3b354adca))",
-  "download_url": "https://github.com/aeongdesu/morphe-patches/releases/download/v1.1.0-dev.1/patches-1.1.0-dev.1.mpp",
+  "created_at": "2026-09-17T07:26:34",
+  "description": "## [1.1.0-dev.2](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-09-17)\n\n### ✨ New Features\n\n* **twitch:** show video stats patch ([09b8e4a](https://github.com/aeongdesu/morphe-patches/commit/09b8e4a2e25373732454f99dcfdeaead77f429cb))",
+  "download_url": "https://github.com/aeongdesu/morphe-patches/releases/download/v1.1.0-dev.2/patches-1.1.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.1.0-dev.1"
+  "version": "1.1.0-dev.2"
 }
