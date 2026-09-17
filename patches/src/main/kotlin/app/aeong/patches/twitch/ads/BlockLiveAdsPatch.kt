@@ -31,11 +31,15 @@ val blockLiveAdsPatch = bytecodePatch(
     val proxyUrl by stringOption(
         key = "proxyUrl",
         title = "Proxy URL",
+        description = "Luminous/TTV LOL PRO proxies are supported.",
         default = "https://eu.luminous.dev",
         values = mapOf(
             "https://eu.luminous.dev" to "https://eu.luminous.dev",
             "https://as.luminous.dev" to "https://as.luminous.dev",
-            "https://lb-as.cdn-perfprod.com" to "https://lb-as.cdn-perfprod.com"
+            "https://lb-eu.cdn-perfprod.com" to "https://lb-eu.cdn-perfprod.com",
+            "https://lb-na.cdn-perfprod.com" to "https://lb-na.cdn-perfprod.com",
+            "https://lb-as.cdn-perfprod.com" to "https://lb-as.cdn-perfprod.com",
+            "https://lb-sa.cdn-perfprod.com" to "https://lb-sa.cdn-perfprod.com"
         ),
         required = true,
         validator = {
@@ -45,7 +49,7 @@ val blockLiveAdsPatch = bytecodePatch(
 
     execute {
         // The live HLS URL is built in one lambda; its second instance field (b) holds the stream name.
-        // Replace the whole body to return the equivalent Luminous proxy URL, so the player loads the
+        // Replace the whole body to return the equivalent Luminous/TTV LOL PRO proxy URL, so the player loads the
         // ad-free manifest the proxy serves. The proxy ignores token/sig, so the two lambda args go
         // unused. Read the field off the matched class, not a hardcoded name, to stay off the obfuscated name.
         val method = LiveManifestUrlBuilderFingerprint.method
