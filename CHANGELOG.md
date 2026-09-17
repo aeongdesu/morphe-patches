@@ -1,3 +1,9 @@
+## [1.1.0-dev.2](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-09-17)
+
+### ✨ New Features
+
+* **twitch:** show video stats patch ([09b8e4a](https://github.com/aeongdesu/morphe-patches/commit/09b8e4a2e25373732454f99dcfdeaead77f429cb))
+
 ## [1.1.0-dev.1](https://github.com/aeongdesu/morphe-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-09-17)
 
 ### 🐛 Bug Fixes

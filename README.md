@@ -7,7 +7,7 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 ### Patches
 
 <!-- PATCHES_START -->
-> **[v1.1.0-dev.1](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.1.0-dev.2](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 Discord&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -24,7 +24,7 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 </details>
 
 <details open>
-<summary>📦 Twitch&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Twitch&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -34,7 +34,8 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Block live ads](#block-live-ads) | Routes live streams through a free third-party proxy that strips the ads baked into the stream, so the proxy has to be up for playback to work; turn this patch off if it goes down. Mid-stream ads get dropped reliably, but a single preroll can still slip through when you first open a channel and Twitch has flagged the shared proxy. VOD ads aren't covered. | • Proxy URL |
+| [Block live ads](#block-live-ads) | same as hoomans patch but added proxy url option | • Proxy URL |
+| [Show video stats](#show-video-stats) | Shows Twitch's built-in video debug statistics button in the player. |  |
 
 </details>
 
