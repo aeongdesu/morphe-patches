@@ -108,6 +108,8 @@ private class JsonPatch(
     val name: String? = null,
     val description: String? = null,
     val default: Boolean = true,
+    /** Null when the patch declares no category and is left ungrouped. */
+    val category: String? = null,
     val dependencies: List<String>,
     /** Null means the patch is universal and applies to any app. */
     val compatiblePackages: List<JsonCompatibility>? = null,
