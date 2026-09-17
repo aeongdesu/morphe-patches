@@ -1,3 +1,9 @@
+## [1.1.0-dev.4](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.3...v1.1.0-dev.4) (2026-09-17)
+
+### 🐛 Bug Fixes
+
+* **twitch:** patch fix cuz epic mistake ([deda759](https://github.com/aeongdesu/morphe-patches/commit/deda7591b4b8033558aa287110fe8375cee194ac))
+
 ## [1.1.0-dev.3](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.2...v1.1.0-dev.3) (2026-09-17)
 
 ### 🐛 Bug Fixes
