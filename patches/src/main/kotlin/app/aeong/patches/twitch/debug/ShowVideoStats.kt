@@ -23,9 +23,11 @@ val showVideoStatsPatch = bytecodePatch(
     )
 
     execute {
-        BottomPlayerOverlayViewModelConstructorFingerprint.method.addInstruction(
+        BottomPlayerOverlayViewModelConstructorFingerprint.method.addInstructions(
             0,
-            "const/16 p5, 0x1",
+            """
+                const/16 p5, 0x1"
+            """
         )
     }
 }
