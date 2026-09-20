@@ -1,3 +1,7 @@
+/*
+ * source code from https://github.com/arandomhooman/hoomans-morphe-patches
+ * temp for testing, don't use this.
+ */
 package app.aeong.patches.twitch.ads
 
 import app.morphe.patcher.Fingerprint
