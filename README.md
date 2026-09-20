@@ -7,7 +7,7 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 ### Patches
 
 <!-- PATCHES_START -->
-> **[v1.1.0-dev.5](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0-dev.5)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.1.0-dev.2](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 Discord&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>

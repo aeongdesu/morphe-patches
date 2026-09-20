@@ -1,22 +1,3 @@
-## [1.1.0-dev.5](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.4...v1.1.0-dev.5) (2026-09-20)
-
-### ✨ New Features
-
-* **twitch:** open following by default patch ([a5aa321](https://github.com/aeongdesu/morphe-patches/commit/a5aa321b7d15cdb38830fdcbd999b66576b071a5))
-
-## [1.1.0-dev.4](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.3...v1.1.0-dev.4) (2026-09-17)
-
-### 🐛 Bug Fixes
-
-* **twitch:** patch fix cuz epic mistake ([deda759](https://github.com/aeongdesu/morphe-patches/commit/deda7591b4b8033558aa287110fe8375cee194ac))
-
-## [1.1.0-dev.3](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.2...v1.1.0-dev.3) (2026-09-17)
-
-### 🐛 Bug Fixes
-
-* **twitch:** build fix ([96ed8bf](https://github.com/aeongdesu/morphe-patches/commit/96ed8bfb7b93dcc01891b0a09129f8fdcd2e3e8b))
-* **twitch:** update ShowVideoStats patch to support 30.7.2 correctly ([0315fbe](https://github.com/aeongdesu/morphe-patches/commit/0315fbee34cccd0abb192110366e662f45a8d9db))
-
 ## [1.1.0-dev.2](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-09-17)
 
 ### ✨ New Features

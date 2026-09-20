@@ -1,7 +1,7 @@
 {
   "created_at": "2026-09-20T12:11:25",
-  "description": "## [1.1.0-dev.5](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.4...v1.1.0-dev.5) (2026-09-20)\n\n### ✨ New Features\n\n* **twitch:** open following by default patch ([a5aa321](https://github.com/aeongdesu/morphe-patches/commit/a5aa321b7d15cdb38830fdcbd999b66576b071a5))",
-  "download_url": "https://github.com/aeongdesu/morphe-patches/releases/download/v1.1.0-dev.5/patches-1.1.0-dev.5.mpp",
+  "description": "",
+  "download_url": "https://github.com/aeongdesu/morphe-patches/releases/download/v1.1.0-dev.2/patches-1.1.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.1.0-dev.5"
+  "version": "1.1.0-dev.2"
 }
