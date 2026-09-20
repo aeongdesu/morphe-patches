@@ -1,3 +1,9 @@
+## [1.1.0-dev.5](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.4...v1.1.0-dev.5) (2026-09-20)
+
+### ✨ New Features
+
+* **twitch:** open following by default patch ([a5aa321](https://github.com/aeongdesu/morphe-patches/commit/a5aa321b7d15cdb38830fdcbd999b66576b071a5))
+
 ## [1.1.0-dev.4](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.3...v1.1.0-dev.4) (2026-09-17)
 
 ### 🐛 Bug Fixes

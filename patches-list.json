@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0-dev.4",
+  "version": "1.1.0-dev.5",
   "patches": [
     {
       "name": "Block bluetooth hands-free mode",
@@ -79,6 +79,33 @@
           }
         }
       ]
+    },
+    {
+      "name": "Open Following by default",
+      "description": "set home_page_experiment_variant to following (for now)",
+      "default": true,
+      "category": null,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "tv.twitch.android.app",
+          "name": "Twitch",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#9147FF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "30.7.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
     },
     {
       "name": "Show video stats",

@@ -7,7 +7,7 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 ### Patches
 
 <!-- PATCHES_START -->
-> **[v1.1.0-dev.4](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0-dev.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.1.0-dev.5](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0-dev.5)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 Discord&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -24,7 +24,7 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 </details>
 
 <details open>
-<summary>📦 Twitch&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary>📦 Twitch&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -35,6 +35,7 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Block live ads](#block-live-ads) | same as hoomans patch but added proxy url option | • Proxy URL |
+| [Open Following by default](#open-following-by-default) | set home_page_experiment_variant to following (for now) |  |
 | [Show video stats](#show-video-stats) | Shows video debug stats button in the player. |  |
 
 </details>
