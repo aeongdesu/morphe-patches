@@ -1,3 +1,9 @@
+## [1.1.0-dev.5](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.4...v1.1.0-dev.5) (2026-09-21)
+
+### 🐛 Bug Fixes
+
+* why still exist ([4ea9875](https://github.com/aeongdesu/morphe-patches/commit/4ea987584d6a6a627d23e9c18f32f464c4ce277c))
+
 ## [1.1.0-dev.4](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.3...v1.1.0-dev.4) (2026-09-21)
 
 ### 🐛 Bug Fixes
