@@ -4,12 +4,11 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.bytecodePatch
-import app.morphe.patcher.patch.stringOption
 
 @Suppress("unused")
-val openFollowingPatch = bytecodePatch(
-    name = "Open Following by default",
-    description = "set home_page_experiment_variant to following (for now)",
+val defaultFollowingPatch = bytecodePatch(
+    name = "Open Following page by default",
+    description = "no more shorts-like page at launch!",
     default = true
 ) {
     compatibleWith(
@@ -24,13 +23,12 @@ val openFollowingPatch = bytecodePatch(
     )
     
     execute {
-        val method = HomePageExperimentFingerprint.method
-        val variantType = method.returnType
+        val method = DefaultHomePageFingerprint.method
 
         method.addInstructions(
             0,
             """
-                sget-object v0, $variantType->Following:$variantType
+                sget-object v0, $FOLLOWING_PAGE_TYPE->INSTANCE:$FOLLOWING_PAGE_TYPE
                 return-object v0
             """
         )

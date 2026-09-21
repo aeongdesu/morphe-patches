@@ -1,18 +1,20 @@
 package app.aeong.patches.twitch.stuff
 
 import app.morphe.patcher.Fingerprint
-import app.morphe.patcher.string
-import com.android.tools.smali.dexlib2.AccessFlags
+import app.morphe.patcher.fieldAccess
 
-internal object HomePageExperimentFingerprint : Fingerprint(
-    accessFlags = listOf(
-        AccessFlags.PUBLIC
-    ),
+internal const val DISCOVERY_FEED_PAGE_TYPE =
+    "Ltv/twitch/android/models/feed/DiscoveryFeedPage;"
+
+internal const val FOLLOWING_PAGE_TYPE =
+    "Ltv/twitch/android/models/feed/DiscoveryFeedPage\$FollowingPage;"
+
+internal object DefaultHomePageFingerprint : Fingerprint(
+    returnType = DISCOVERY_FEED_PAGE_TYPE,
     parameters = emptyList(),
     filters = listOf(
-        string("home_page_experiment_variant"),
-        string("control"),
-        string("live"),
-        string("following")
+        fieldAccess(
+            smali = "$FOLLOWING_PAGE_TYPE->INSTANCE:$FOLLOWING_PAGE_TYPE"
+        )
     )
 )
