@@ -7,14 +7,14 @@ because i used AI!!!!!!!!!!!!!!!!!!!!!!!
 ### Patches
 
 <!-- PATCHES_START -->
-> **[v1.1.0-dev.5](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0-dev.5)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.1.0](https://github.com/aeongdesu/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 Discord&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 346.0 - Alpha | 344.5 - Alpha |
+| 347.5 - Alpha | 344.5 - Alpha |
 | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
