@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0-dev.3",
+  "version": "1.1.0-dev.4",
   "patches": [
     {
       "name": "Block bluetooth hands-free mode",
@@ -81,8 +81,8 @@
       ]
     },
     {
-      "name": "Open Following by default",
-      "description": "set home_page_experiment_variant to following (for now)",
+      "name": "Open Following page by default",
+      "description": "no more shorts-like page at launch!",
       "default": true,
       "category": null,
       "dependencies": [],

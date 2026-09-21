@@ -1,3 +1,9 @@
+## [1.1.0-dev.4](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.3...v1.1.0-dev.4) (2026-09-21)
+
+### 🐛 Bug Fixes
+
+* **twitch:** force to following page instead of experiment enabling ([3ca4194](https://github.com/aeongdesu/morphe-patches/commit/3ca41949d59dff5f1ca59f500087ad99c9350a9f))
+
 ## [1.1.0-dev.3](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0-dev.2...v1.1.0-dev.3) (2026-09-20)
 
 ### 🐛 Bug Fixes
