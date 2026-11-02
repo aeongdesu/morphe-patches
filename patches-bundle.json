@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-02T01:00:46",
-  "description": "## [1.2.0-dev.1](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-11-02)\n\n### ✨ New Features\n\n* lets make a new release for bump ([41c175d](https://github.com/aeongdesu/morphe-patches/commit/41c175dd7d0edc1a0355ad2b644eaa7a20d9ec6e))",
-  "download_url": "https://github.com/aeongdesu/morphe-patches/releases/download/v1.2.0-dev.1/patches-1.2.0-dev.1.mpp",
+  "created_at": "2026-11-02T01:03:51",
+  "description": "## [1.2.0](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0...v1.2.0) (2026-11-02)\n\n### ✨ New Features\n\n* lets make a new release for bump ([41c175d](https://github.com/aeongdesu/morphe-patches/commit/41c175dd7d0edc1a0355ad2b644eaa7a20d9ec6e))",
+  "download_url": "https://github.com/aeongdesu/morphe-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
   "signature_download_url": "",
-  "version": "1.2.0-dev.1",
+  "version": "1.2.0",
   "public_key": "/mZ9Sw/+cTkOP3PMVhCi/PwXZ8vQu4bW4RzyfO+YbTA="
 }

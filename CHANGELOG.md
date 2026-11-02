@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0...v1.2.0) (2026-11-02)
+
+### ✨ New Features
+
+* lets make a new release for bump ([41c175d](https://github.com/aeongdesu/morphe-patches/commit/41c175dd7d0edc1a0355ad2b644eaa7a20d9ec6e))
+
 ## [1.2.0-dev.1](https://github.com/aeongdesu/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-11-02)
 
 ### ✨ New Features
